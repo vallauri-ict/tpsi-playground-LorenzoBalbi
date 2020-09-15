@@ -1,0 +1,28 @@
+﻿#wrapper{
+    margin: 50px;
+    border: 1px solid black;
+    padding: 10px;
+}
+h1{
+    border-bottom: 1px solid black;
+    padding-bottom: 5px;
+}
+riga1{
+    display: inline;
+}
+#parola{
+    display: inline;
+}
+#checkbox{
+    display: inline;
+}
+#invia{
+    display: inline;
+}
+.txtLettere{
+    width: 10px;
+    margin-right: 6px;
+}
+#btnRisposta{
+    margin: 10px;
+}

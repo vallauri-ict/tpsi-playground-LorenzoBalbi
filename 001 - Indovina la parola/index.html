@@ -1,0 +1,52 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <script type="application/javascript" src="script.js"></script>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body onload="load()">
+    <div id="wrapper">
+        <h1>INDOVINA LA PAROLA</h1>
+        <div id="riga1">
+            <button id="btnAvvia" onclick="avvia()">Avvia</button>
+            <p>Punti: </p>
+            <input type="number" readonly id="txtPunti"/>
+        </div>
+        <div id="parola">
+            <input type="text" readonly class="txtLettere" id="txt1" />
+            <input type="text" readonly class="txtLettere" id="txt2" />
+            <input type="text" readonly class="txtLettere" id="txt3" />
+            <input type="text" readonly class="txtLettere" id="txt4" />
+            <input type="text" readonly class="txtLettere" id="txt5" />
+            <input type="text" readonly class="txtLettere" id="txt6" />
+            <input type="text" readonly class="txtLettere" id="txt7" />
+            <input type="text" readonly class="txtLettere" id="txt8" />
+            <input type="text" readonly class="txtLettere" id="txt9" />
+            <input type="text" readonly class="txtLettere" id="txt10" />
+        </div>
+        <br />
+        <div id="checkbox">
+            <input type="checkbox" id="chk1" class="chkPunti" readonly/>
+            <input type="checkbox" id="chk2" class="chkPunti" readonly />
+            <input type="checkbox" id="chk3" class="chkPunti" readonly />
+            <input type="checkbox" id="chk4" class="chkPunti" readonly />
+            <input type="checkbox" id="chk5" class="chkPunti" readonly />
+            <input type="checkbox" id="chk6" class="chkPunti" readonly />
+            <input type="checkbox" id="chk7" class="chkPunti" readonly />
+            <input type="checkbox" id="chk8" class="chkPunti" readonly />
+            <input type="checkbox" id="chk9" class="chkPunti" readonly />
+            <input type="checkbox" id="chk10" class="chkPunti" readonly />
+        </div>
+        <br />
+        <div id="invia">
+            <input type="text" id="txtInvia" />
+            <button id="btnInvia" onclick="invia()">Invia</button>
+        </div>
+        <br />
+        <button id="btnRisposta" onclick="risposta()">Risposta</button>
+    </div>
+</body>
+</html>
