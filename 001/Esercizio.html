@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <title>Esercizio11</title>
+</head>
+<body>
+<form action="pagina2.html">
+    <label for="txtNome">Nome:</label>
+    <input type="text" id="txtNome" maxlength="10" size="20" placeholder="Inserisci il tuo nome"/>
+    <p>
+        Hobbies:
+        <br/>
+        <label for="chkSport">Sport:</label>
+        <input type="checkbox" id="chkSport" name="chkHobbies[]" value="sport"/>
+        <br/>
+        <label for="chkCinema">Cinema</label>
+        <input type="checkbox" id="chkCinema" name="chkHobbies[]" value="cinema"/>
+        <br/>
+        <label for="chkComputer">Computer:</label>
+        <input type="checkbox" id="chkComputer" name="chkHobbies[]" value="computer"/>
+        <br/>
+    </p>
+    <p>
+        <br/>
+        <label for="optInformatica">Informatica:</label>
+        <input type="radio" id="optInformatica" name="optSettore" value="I"/>
+        <br/>
+        <label for="optMeccanica">Meccanica:</label>
+        <input type="radio" id="optMeccanica" name="optSettore" value="M"/>
+    </p>
+    <textarea id="txtCommenti" name="txtCommenti" rows="5" cols="30" placeholder="Inserisci il tuo commento"></textarea>
+    <select id="lstProvincia" name="lstProvincia">
+        <option value="ge">Genova</option>
+        <option value="sv">Savona</option>
+        <option value="mi" selected>Milano</option>
+        <optgroup label="Piemonte">
+            <option>Cuneo</option>
+            <option>Torino</option>
+        </optgroup>
+    </select>
+    <p>
+        <input type="submit" value="Invia"/>
+        <input type="Reset" value="Reset"/>
+    </p>
+</form>
+</body>
+</html>
